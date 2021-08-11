@@ -19,10 +19,10 @@ describe('AppComponent', () => {
   it(`should have as title 'my-first-app'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('my-first-app');
+    expect(app.name).toEqual('Roberta');
   });
 
-  it('should render title', () => {
+  it('should render roberta', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
